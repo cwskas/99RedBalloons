@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		363C60561AE234E100114AC7 /* Balloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C60551AE234E100114AC7 /* Balloon.swift */; };
 		36D985821ADFBB7400AF5B24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D985811ADFBB7400AF5B24 /* AppDelegate.swift */; };
 		36D985841ADFBB7400AF5B24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D985831ADFBB7400AF5B24 /* ViewController.swift */; };
 		36D985871ADFBB7400AF5B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D985851ADFBB7400AF5B24 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		363C60551AE234E100114AC7 /* Balloon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balloon.swift; sourceTree = "<group>"; };
 		36D9857C1ADFBB7400AF5B24 /* 99RedBalloons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 99RedBalloons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D985801ADFBB7400AF5B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36D985811ADFBB7400AF5B24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			children = (
 				36D985811ADFBB7400AF5B24 /* AppDelegate.swift */,
 				36D985831ADFBB7400AF5B24 /* ViewController.swift */,
+				363C60551AE234E100114AC7 /* Balloon.swift */,
 				36D985851ADFBB7400AF5B24 /* Main.storyboard */,
 				36D985881ADFBB7400AF5B24 /* Images.xcassets */,
 				36D9858A1ADFBB7400AF5B24 /* LaunchScreen.xib */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36D985841ADFBB7400AF5B24 /* ViewController.swift in Sources */,
+				363C60561AE234E100114AC7 /* Balloon.swift in Sources */,
 				36D985821ADFBB7400AF5B24 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +441,7 @@
 				36D9859D1ADFBB7400AF5B24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36D9859E1ADFBB7400AF5B24 /* Build configuration list for PBXNativeTarget "99RedBalloonsTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +450,7 @@
 				36D985A01ADFBB7400AF5B24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
